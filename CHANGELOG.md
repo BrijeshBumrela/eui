@@ -1,5 +1,12 @@
 ## [`master`](https://github.com/elastic/eui/tree/master)
 
+**Bug Fixes**
+
+- Fixed `EuiDataGrid`'s sort popover to behave properly on mobile screens ([#2979](https://github.com/elastic/eui/pull/2979))
+
+## [`20.1.0`](https://github.com/elastic/eui/tree/v20.1.0)
+
+- Added `theme` prop to `EuiCodeEditor` in support of `AceEditor` themes ([#2970](https://github.com/elastic/eui/pull/2970))
 - `EuiButton` now has a single return statement ([#2954](https://github.com/elastic/eui/pull/2954))
 - Added `isSortable` props to `EuiDataGridColumn` and `EuiDataGridSchemaDetector` to mark them as un-sortable ([#2952](https://github.com/elastic/eui/pull/2952))
 - Converted `EuiForm` to TypeScript, added many missing `/form` Prop types ([#2896](https://github.com/elastic/eui/pull/2896))
@@ -23,6 +30,12 @@
 **Theme: Amsterdam**
 
 - Altered `secondary`, `accent` colors to be more saturated ([#2873](https://github.com/elastic/eui/pull/2873))
+
+## [`20.0.2`](https://github.com/elastic/eui/tree/v20.0.2)
+
+**Bug fixes**
+
+- Fixed type definitions for `EuiComboBox` ([#2971](https://github.com/elastic/eui/pull/2971))
 
 ## [`20.0.1`](https://github.com/elastic/eui/tree/v20.0.1)
 
